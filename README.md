@@ -5,8 +5,8 @@ Classify apparel images in Fashion-MNIST dataset using custom built fully-connec
 
 ## Features
 ⚡Multi Label Image Classification  
-⚡Cutsom Fully Connected NN and Convolutional Network
-⚡Conditional GAN for Data Augmentation
+⚡Cutsom Fully Connected NN and Convolutional Network  
+⚡Conditional GAN for Data Augmentation  
 ⚡Fashion MNIST  
 ⚡PyTorch Lightning
 
@@ -81,8 +81,7 @@ Cross Entropy Loss is used as the loss function during model training and valida
     - `lightning`
 2. Download `train.py` python file from this repo
 3. Execute the python file specifying configuration. If a GPU is available (recommended), it'll use it automatically; otherwise, it'll fall back to the CPU. 
-``python
+```python
     python train.py optimizer=sgd optimizer.lr=0.002 batch_size=4 epochs=30
-``
-
 ```
+
