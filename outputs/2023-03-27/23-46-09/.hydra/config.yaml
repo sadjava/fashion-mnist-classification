@@ -1,0 +1,8 @@
+architecture: linear
+optimizer: sgd
+lr: 0.002
+batch_size: 32
+epochs: 3
+data_dir: ../../..
+checkpoint: checkpoints
+logs: classification_logs

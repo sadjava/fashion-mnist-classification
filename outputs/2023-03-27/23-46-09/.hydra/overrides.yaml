@@ -1,0 +1,4 @@
+- epochs=3
+- optimizer=sgd
+- lr=0.002
+- architecture=linear

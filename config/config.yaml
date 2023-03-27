@@ -1,0 +1,8 @@
+architecture: cnn # linear, cnn
+optimizer: adam
+lr: 0.0007
+batch_size: 32
+epochs: 1
+data_dir: ../../..
+checkpoint: checkpoints
+logs: classification_logs
