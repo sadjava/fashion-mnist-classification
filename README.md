@@ -57,6 +57,8 @@ I'll build a neural network using PyTorch Lightning. The goal here is to convert
 [test-images](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/t10k-images-idx3-ubyte.gz), 
 [test-labels](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/t10k-labels-idx1-ubyte.gz)
 
+- I built a conditional GAN to generate more images and then train the model on generated data, but unfortunately there is an issue with convergency, which is quite popular and I did not resolved it yet. So there is no trained GAN model and no generated data of course.
+
 ## Evaluation Criteria
 
 ### Loss Function  
